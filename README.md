@@ -1,3 +1,62 @@
+
+# Stable Diffusion 提示词操作面板
+
+## 使用方式: 
+1，复制 `https://github.com/xy185/CN-sdweb-easy-prompt-selector`  这个链接，在SD的扩展-从网址安装中的 `扩展的 git 仓库网址`处黏贴，然后安装。
+
+2，安装完成后重新加载，生成按钮下方就会出现提示词按钮，点击开始选择
+
+## 修改提示词的方式: 
+
+在extension/CN-sdweb-easy-prompt-selector/tags 文件夹中，打开任意文件（可以用记事本打开编辑），修改相关内容，然后保存，再重新加载SD。重新加载按钮在SD最下方。
+
+## 增加文档的方式: 
+
+选中任意一个tags文件夹中的文档，右键复制，然后tags文件夹中直接黏贴，就会出现一个副本文档，修改文档名即可。然后就可以打开修改编辑。
+
+## 编辑规范: 
+
+1, 中英文之间的冒号是英文:和空格，即：`: `, 不是`：`，如果使用错误，SD重新加载后，点击提示词不会弹出操作面板
+
+2，大类定格，具体提示词空两格，具体参考该文档已有的其他提示词。（有一个文档是空一格，不是很规范，不过影响不大；修改或者不改都可以；我有心情的时候再搞它..）
+
+### 编辑建议：
+
+1，已经深度DIY自己的提示词版本后，记得定期存档一份tags文件夹，标注上日期，这样避免某次修改后版本混乱...
+
+2，现在已经是2023年8月2号了，大语言模型什么的，可以帮你很多。
+
+# 致谢:
+
+本项目基于：
+
+blue-pen5805 的初始项目：
+
+[https://github.com/blue-pen5805/sdweb-easy-prompt-selector](https://github.com/blue-pen5805/sdweb-easy-prompt-selector) 
+
+以及路过银河 [https://www.zhihu.com/people/SingingUnderStars](https://www.zhihu.com/people/SingingUnderStars) 提供的汉化包修改而成。
+
+同时感谢开源了SD的 Stable Diffusion AI
+
+以及中文世界的赛博佛祖：秋葉aaaki [https://space.bilibili.com/12566101/](https://space.bilibili.com/12566101/) 
+
+# 协议：
+
+MIT协议
+
+# 发布地址
+
+后续我应该会将提示词内容再丰富和优化一下，会发布在 [https://i-robot.life](https://i-robot.life) 这个链接里，欢迎关注。
+
+---
+
+以下内容为 Blue-pen5805发布的英文版指南，内容比较详细，今天有些忙，就留下一次翻译。 --20230802 
+
+---
+
+
+
+
 # Easy Prompt Selector
 
 [使い方(暫定)](https://blue-pen5805.fanbox.cc/posts/5306601)
